@@ -1,0 +1,204 @@
+@media screen and (min-width: 768px) and (max-width: 1320px) {
+
+    .input-group {
+        width: 100%;
+    }
+
+    .input-group__text-area {
+        width: 88.83%;
+    }
+
+    .input-group__aviso {
+        width: 100%;
+    }
+
+    .input-group__botoes {
+        width: 88.83%;
+    }
+
+    .botoes__enc-dec-copiar {
+        width: 66.24%;
+    }
+
+    .output-group__retangulo {
+        width: 100%;
+    }
+
+    .output-group__retangulo__copiar-mensagem  {
+        width: 100%;
+    }
+
+    .mensagem {
+        width: auto;
+        padding: 0px 32px;
+    }
+
+    #copiar {
+        width: auto;
+        margin: 0px 32px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    :root {
+        --margin-left-input-group: 0%;
+    }
+    main {
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    #imagem-ilustracao {
+        display: none;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .input-group__cabecalho__logo-alura{
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    .input-group__text-area {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 292px;
+    }
+
+    .input-group__aviso {
+        width: 100%;
+    }
+
+    .input-group__botoes {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .botoes__enc-dec-copiar {
+        width: 332px;
+    }
+
+    .output-group__retangulo {
+        width: 100%;
+        height: auto;
+    }
+
+    .output-group__retangulo__guia {
+        width: 100%;
+        padding: 32px 0px;
+    }
+
+    #guia-alerta {
+        height: 29px;
+        padding: 0px 32px;
+    }
+
+    #guia-instrucao {
+        height: 24px;
+        padding: 0px 32px;
+    }
+
+    .output-group__retangulo__copiar-mensagem  {
+        width: 100%;
+        height: 343px;
+        padding: 32px 0px;
+    }
+
+    .mensagem {
+        width: auto;
+        padding: 0px 32px;
+    }
+
+    #copiar {
+        width: auto;
+        margin: 0px 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    :root {
+        --margin-left-input-group: 0%;
+        --paddings-laterais: 16px;
+    }
+    main {
+        flex-direction: column;
+        padding: 24px var(--paddings-laterais);
+        gap: 64px;
+    }
+
+    #imagem-ilustracao {
+        display: none;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .input-group__cabecalho__logo-alura{
+        margin: 0px;
+    }
+
+    .input-group__text-area {
+        width: 100%;
+        height: auto;
+        max-height: 624px;
+        margin-top: 64px;
+        margin-bottom: 235px;
+    }
+
+    .input-group__aviso {
+        width: 100%;
+    }
+
+    .input-group__botoes {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .botoes__enc-dec-copiar {
+        width: 343px;
+    }
+
+    .output-group__retangulo {
+        max-width: 327px;
+        margin: 0px 8px 24px 8px;
+        height: auto;
+
+    }
+
+    .output-group__retangulo__guia {
+        width: auto;
+        padding: 32px 0px;
+    }
+
+    #guia-alerta {
+        max-width: 263px;
+        height: 58px;
+        padding: 0px 32px;
+    }
+
+    #guia-instrucao {
+        max-width: 263px;
+        height: 48px;
+        padding: 0px 32px;
+    }
+
+    .output-group__retangulo__copiar-mensagem  {
+        width: 100%;
+        height: 595px;
+        padding: 32px 0px;
+    }
+
+    .mensagem {
+        width: auto;
+        padding: 0px 32px;
+    }
+
+    #copiar {
+        width: auto;
+        margin: 0px 32px;
+    }
+}

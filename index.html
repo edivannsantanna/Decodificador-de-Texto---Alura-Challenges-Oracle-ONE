@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto - Alura Challenges Oracle ONE</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive style.css">
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <section class="input-group">
+      <div class="input-group__cabecalho">
+        <a href="https://www.alura.com.br/"><img class="input-group__cabecalho__logo-alura" src="./img/VectorLogo.png" alt="Logo da página"></a>
+      </div>
+
+        <textarea class="input-group__text-area" cols="42" placeholder="Digite sua mensagem" oninput="ajustarAlturaTextarea()"></textarea>
+                
+        <div class="input-group__aviso">
+          <img class="input-group__aviso__imagem" src="./img/VectorExclamacao.png" alt="Icone de exclamação">
+          <p class="input-group__aviso__conteudo">Apenas letras minúsculas e sem acento.</p>
+        </div>
+          
+        <div class="input-group__botoes">
+          <button class="botoes__enc-dec-copiar" onclick="criptografar()" id="encrypt">Criptografar</button>
+          <button class="botoes__enc-dec-copiar" onclick="descriptografar()" id="decrypt">Descriptografar</button>
+        </div>
+    </section>
+
+    <section class="output-group">
+      <div class="output-group__retangulo">
+        
+        <img id="imagem-ilustracao" src="./img/FindMensagem.png" alt="Desenho de um homem procurando algo com uma lupa">
+          
+        <div class="output-group__retangulo__guia">
+            <h2 id="guia-alerta">Nenhuma mensagem encontrada</h2>
+            <p id ="guia-instrucao">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <div class="output-group__retangulo__copiar-mensagem">
+          <textarea class="mensagem" readonly></textarea>
+          <button class="botoes__enc-dec-copiar" onclick="copiando()" id="copiar">Copiar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <a id="rodape__link" href="https://www.linkedin.com/in/edivan-da-silva-dev/">By Edivan d'Silva</a>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+
+</html>
