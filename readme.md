@@ -1,5 +1,7 @@
 # Decodificador de Texto - Alura Challenges Oracle ONE
 
+<img src="img/badge.png" alt="captura de tela do desafio" width="200" height="200">
+
 ## Descrição do Projeto 📝
 Este projeto é um decodificador de texto desenvolvido como parte dos Desafios da Alura Oracle ONE. Ele permite ao usuário criptografar e descriptografar textos usando um conjunto predefinido de chaves.
 
